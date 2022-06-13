@@ -1,0 +1,4 @@
+(executable
+ (name read_files)
+ (libraries unix yojson))
+
