@@ -1,0 +1,22 @@
+ocamlmerlin single locate -look-for ml -position 46:19 -filename ./examples/trees.ml < ./examples/trees.ml | jq . 
+{
+  "class": "return",
+  "value": {
+    "file": "/Users/tarides/Desktop/Tarides-Ocaml/irmin/src/irmin/tree.ml",
+    "pos": {
+      "line": 1764,
+      "col": 6
+    }
+  },
+  "notifications": [],
+  "timing": {
+    "clock": 571,
+    "cpu": 554,
+    "query": 306,
+    "pp": 0,
+    "reader": 1,
+    "ppx": 22,
+    "typer": 225,
+    "error": 0
+  }
+} 
