@@ -55,7 +55,6 @@ let query f_merlin =
 let rec words_of_line (l : char list) acc_list k =
   k := !k + 1; 
   match l with
-
   | [] -> acc_list
   | h :: t -> (
       match h with

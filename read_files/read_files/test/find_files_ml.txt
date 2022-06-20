@@ -27,6 +27,7 @@
 ./examples/sync.ml
 ./examples/trees.ml
 ./read_files/read_files/bin/main.ml
+./read_files/read_files/test/merlin_benchmark.ml
 ./read_files/read_files/test/read_files.ml
 ./src/irmin/append_only.ml
 ./src/irmin/append_only_intf.ml

@@ -1,4 +1,3 @@
 (executable
- (name read_files)
+ (name merlin_benchmark)
  (libraries unix yojson))
-
