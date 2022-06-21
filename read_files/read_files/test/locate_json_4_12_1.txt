@@ -1,0 +1,22 @@
+ocamlmerlin single locate -look-for ml -position 93:7 -filename ./test/irmin-unix/test_unix.ml < ./test/irmin-unix/test_unix.ml | jq . 
+{
+  "class": "return",
+  "value": {
+    "file": "/Users/tarides/Desktop/Tarides-Ocaml/irmin/src/irmin/store.ml",
+    "pos": {
+      "line": 840,
+      "col": 6
+    }
+  },
+  "notifications": [],
+  "timing": {
+    "clock": 774,
+    "cpu": 749,
+    "query": 282,
+    "pp": 0,
+    "reader": 1,
+    "ppx": 0,
+    "typer": 465,
+    "error": 0
+  }
+} 
